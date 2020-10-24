@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST PAGE</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script type="text/javascript" src="js/GOTO.js"></script>
+    <SCRIPT LANGUAGE="JavaScript1.2">
+        <!--//
+        if (navigator.appName == 'Netscape')
+        var language = navigator.language;
+        else
+        var language = navigator.browserLanguage;
+        if (language.indexOf('en') > -1) document.location.href = 'en.htm';
+        else if (language.indexOf('zh') > -1) document.location.href = 'zh.htm';
+        else
+        document.location.href = 'en.htm';
+        // End -->
+        </script>
     <style type="text/css">
         h1{font-size:50px;}
         ul li{text-align:center; font-size:24px; list-style: none;}
