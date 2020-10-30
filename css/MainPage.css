@@ -1,2 +1,7 @@
 
-.first {background:skyblue; height: 100%; width: 100%;}
+.first {
+    background:skyblue center top;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
