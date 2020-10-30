@@ -1,6 +1,8 @@
-
+body {
+    background-color: aquamarine;
+}
 .first {
-    background:skyblue center top;
+    background:#87ceeb center top;
     height: 100%;
     width: 100%;
     position: fixed;
