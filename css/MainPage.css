@@ -1,3 +1,4 @@
+/*CREATED BY RASILIA*/
 
 body {
     background-color: #87ceeb;
@@ -24,9 +25,10 @@ a:link, a:visited {
 }
 .top ul {
     height: 30;
-    width: auto;
+    width: 100%;
     margin: 6px;
     text-align: center;
+    padding: 0;
 }
 .top ul li {
     padding-left: 20px;
