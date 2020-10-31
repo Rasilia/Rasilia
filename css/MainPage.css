@@ -1,3 +1,4 @@
+
 body {
     background-color: #87ceeb;
     padding: 0;
@@ -7,15 +8,27 @@ body {
 ul, ol {
     list-style: none;
 }
+ul li {
+    display: inline;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
 
 .top {
-    background:#003144 center top;
-    height: 40;
+    background:#34393a center top;
+    height: 60;
     width: 100%;
     position: fixed;
 }
 .top ul {
     height: 30;
     width: auto;
-    margin: auto;
+    margin: 6px;
+    text-align: center;
+}
+.top ul li {
+    padding-left: 20px;
+    font-size: 20px;
 }
