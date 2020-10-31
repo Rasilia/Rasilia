@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/*全局*/
 ul, ol {
     list-style: none;
 }
@@ -17,6 +18,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+/*顶部*/
 .top {
     background:#34393a center top;
     height: 60;
@@ -31,6 +33,20 @@ a:link, a:visited {
     padding: 0;
 }
 .top ul li {
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 20px;
+}
+.top a:hover {
+    color: #87ceeb;
+}
+.lang {
+    color: white;
+}
+.lang ul {
+    display: none;
+    background: white;
+}
+.lang:hover ul {
+    display: block;
 }
