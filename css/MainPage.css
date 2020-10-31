@@ -1,11 +1,18 @@
 body {
-    background-color: aquamarine;
+    background-color: #87ceeb;
     padding: 0;
     margin: 0;
 }
-.first {
-    background:#87ceeb center top;
-    height: 100%;
+
+.top {
+    background:#00435e center top;
+    height: 40;
     width: 100%;
     position: fixed;
+}
+.top ul {
+    height: 30;
+    width: auto;
+    margin: auto;
+    text-align: center;
 }
