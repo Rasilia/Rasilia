@@ -21,14 +21,15 @@ a:link, a:visited {
 /*顶部*/
 .top {
     background:#34393a center top;
-    height: 60;
+    height: 40px;
     width: 100%;
     position: fixed;
 }
 .top ul {
     height: 30;
     width: 100%;
-    margin: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     text-align: center;
     padding: 0;
 }
@@ -50,18 +51,17 @@ a:link, a:visited {
 }
 .lang ul {
     padding: 0;
-    margin: 5;
+    margin: 0;
     display: none;
-    width: 200px;
-    left: 52.4%;
     background: white;
     position:absolute;
 }
 .lang:hover ul {
     display: block;
-    width: auto;
+    width: 300px;
+    left: 52.4%;
+    top: 40px;
 }
 .lang a {
     color: black;
-    text-decoration: none;
 }
