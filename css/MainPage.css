@@ -46,6 +46,7 @@ a:link, a:visited {
 .lang ul {
     display: none;
     background: white;
+    position:absolute;
 }
 .lang:hover ul {
     display: block;
