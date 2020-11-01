@@ -49,11 +49,17 @@ a:link, a:visited {
 .top a:hover {
     color: var(--b);
 }
+
+/*语言*/
 .lang {
-    width: 100%;
-    padding: 0;
+    height: 40px;
+    width: 125px;
+    font-size: 20px;
+    position: absolute;
+    left: 85%;
+    text-align: end;
     margin: 0;
-    display: inline;
+    padding-top: 6px;
     color: var(--w);
     cursor:pointer;
 }
@@ -61,14 +67,17 @@ a:link, a:visited {
     color: black;
 }
 .lang ul {
-    padding: 7px 0;
+    padding: 0;
     margin: 0;
     display: none;
     background: var(--w);
-    position: absolute;
+    position: inherit;
+    top: 40px;
+    left: 13.5%;
     border-radius: 10px;
     width: 175px;
-    left: 52.7%;
+    height: 1000px auto;
+    overflow: auto;
 }
 .lang ul li {
     font-size: 1.2rem;
