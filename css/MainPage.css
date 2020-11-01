@@ -41,7 +41,12 @@ a:link, a:visited {
     color: #87ceeb;
 }
 .lang {
+    width: 100px;
+    display: inline;
     color: white;
+}
+.lang:hover {
+    color: #87ceeb;
 }
 .lang ul {
     padding: 0;
@@ -54,4 +59,9 @@ a:link, a:visited {
 }
 .lang:hover ul {
     display: block;
+    width: auto;
+}
+.lang a {
+    color: black;
+    text-decoration: none;
 }
