@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: var(--b);
+    background: url(https://c-ssl.duitang.com/uploads/item/201905/16/20190516191834_duuqo.thumb.1000_0.png);
+    background-size: cover;
+    background-attachment: fixed;
     padding: 0;
     margin: 0;
 }
@@ -48,20 +50,25 @@ a:link, a:visited {
     color: var(--b);
 }
 .lang {
-    width: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     display: inline;
     color: var(--w);
     cursor:pointer;
 }
-.lang:hover {
-    color: var(--b);
+.lang a {
+    color: black;
 }
 .lang ul {
-    padding: 0;
+    padding: 7px 0;
     margin: 0;
     display: none;
     background: var(--w);
     position: absolute;
+    border-radius: 10px;
+    width: 175px;
+    left: 52.7%;
 }
 .lang ul li {
     font-size: 1.2rem;
@@ -69,13 +76,9 @@ a:link, a:visited {
     display: block;
     padding: 5px;
 }
+.lang:hover {
+    color: var(--b);
+}
 .lang:hover ul {
     display: block;
-    border-radius: 10px;
-    width: 175px;
-    left: 52.7%;
-    top: 40px;
-}
-.lang a {
-    color: black;
 }
