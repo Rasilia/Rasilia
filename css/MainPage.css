@@ -1,7 +1,13 @@
 /*CREATED BY RASILIA*/
 
+/*变量*/
+:root {
+    --b: #87ceeb;
+    --w: white;
+}
+
 body {
-    background-color: #87ceeb;
+    background-color: var(--b);
     padding: 0;
     margin: 0;
 }
@@ -14,7 +20,7 @@ ul li {
     display: inline;
 }
 a:link, a:visited {
-    color: white;
+    color: var(--w);
     text-decoration: none;
 }
 
@@ -39,27 +45,35 @@ a:link, a:visited {
     font-size: 20px;
 }
 .top a:hover {
-    color: #87ceeb;
+    color: var(--b);
 }
 .lang {
     width: 100px;
     display: inline;
-    color: white;
+    color: var(--w);
+    cursor:pointer;
 }
 .lang:hover {
-    color: #87ceeb;
+    color: var(--b);
 }
 .lang ul {
     padding: 0;
     margin: 0;
     display: none;
-    background: white;
-    position:absolute;
+    background: var(--w);
+    position: absolute;
+}
+.lang ul li {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    padding: 5px;
 }
 .lang:hover ul {
     display: block;
-    width: 300px;
-    left: 52.4%;
+    border-radius: 10px;
+    width: 175px;
+    left: 52.7%;
     top: 40px;
 }
 .lang a {
