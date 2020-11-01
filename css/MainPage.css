@@ -44,7 +44,11 @@ a:link, a:visited {
     color: white;
 }
 .lang ul {
+    padding: 0;
+    margin: 5;
     display: none;
+    width: 200px;
+    left: 52.4%;
     background: white;
     position:absolute;
 }
