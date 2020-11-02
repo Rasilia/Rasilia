@@ -6,15 +6,16 @@
     --w: white;
 }
 
+/*全局*/
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     background: url(https://c-ssl.duitang.com/uploads/item/201905/16/20190516191834_duuqo.thumb.1000_0.png);
     background-size: cover;
     background-attachment: fixed;
-    padding: 0;
-    margin: 0;
 }
-
-/*全局*/
 ul, ol {
     list-style: none;
 }
@@ -39,7 +40,6 @@ a:link, a:visited {
     margin-top: 6px;
     margin-bottom: 6px;
     text-align: center;
-    padding: 0;
 }
 .top ul li {
     padding-left: 40px;
@@ -58,7 +58,6 @@ a:link, a:visited {
     position: absolute;
     left: 90%;
     text-align: end;
-    margin: 0;
     padding-top: 6px;
     color: var(--w);
     cursor:pointer;
@@ -67,8 +66,6 @@ a:link, a:visited {
     color: black;
 }
 .lang ul {
-    padding: 0;
-    margin: 0;
     display: none;
     background: var(--w);
     position: inherit;
