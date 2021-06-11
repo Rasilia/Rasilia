@@ -13,6 +13,7 @@
 }
 body {
     background: url(http://r.photo.store.qq.com/psc?/V51VeLMv08kXmy2CuvrD2GCb3C3CKV8p/45NBuzDIW489QBoVep5mccdFslB.GzEbe*dOfSaKuNmRC3gzGucgTPxoElYzTrBzSpZGHhu8R7YIq1GDehUwmBXN2ws2J7JlmLDUZ5A4oBI!/r);
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
