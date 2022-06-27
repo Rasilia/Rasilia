@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: darkgray;
+}
+.header {
+    font-size:100px; 
+    color: red; 
+    text-align: center;
+}
