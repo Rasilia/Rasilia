@@ -8,6 +8,9 @@ body {
 .note_and_show {
     height: auto;
     width: 50%;
+    position: fixed;
+}
+.note_and_show_1 {
     font-size:50px; 
     color: whitesmoke; 
     text-align: center;
