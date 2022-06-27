@@ -5,8 +5,9 @@
 body {
     background-color: #32322f;
 }
+
 .note_and_show {
-    height: auto;
+    height: 100%;
     width: 50%;
     position: fixed;
 }
@@ -14,4 +15,5 @@ body {
     font-size:50px; 
     color: whitesmoke; 
     text-align: center;
+    margin: auto 0;
 }
