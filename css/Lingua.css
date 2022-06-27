@@ -10,6 +10,7 @@ body {
     height: 100%;
     width: 50%;
     position: fixed;
+
 }
 .note_and_show_1 {
     position: relative;
@@ -21,19 +22,22 @@ body {
 }
 
 .lingua {
-    position:relative;
+    position:fixed;
     height: 100%;
     width: 50%;
     left: 50%;
 }
 .lingua ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     list-style: none;
     height: auto;
     width: auto;
     overflow-y:auto;
 }
 .selected {
-    background-color: rgb(219,217,219) ;
+    background: azure;
 }
 .lingua li {
     border-bottom: rgb(219,217,219) solid 1px;
