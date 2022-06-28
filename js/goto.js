@@ -1,3 +1,3 @@
 function GOTO() {
-    $('.selected').document
+    $('.selected').d
 }

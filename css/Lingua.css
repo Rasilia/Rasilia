@@ -4,6 +4,7 @@
 }
 body {
     background-color: #32322f;
+    font-family: Calibri;
 }
 
 .note_and_show {
@@ -14,22 +15,34 @@ body {
 }
 .note_and_show_1 {
     position: relative;
-    font-size:50px; 
+    font-size:350%; 
     color: whitesmoke; 
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .tip {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+.tip_1 {
+    position: relative;
     font-size: 30px;
     position: relative;
     color: whitesmoke; 
     text-align: center;
-    top: 65%;
+    top: 80%;
 }
 .confirm {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+}
+.confirm_1 {
     position: relative;
-    top: 69%;
+    top: 92%;
     font-size: 35px;
     color: whitesmoke; 
     text-align: center;
@@ -53,10 +66,14 @@ body {
 .selected {
     position: relative;
     background: #f0ffff;
-    background-size: 40% auto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-.lingua li {
-    border-bottom: rgb(219,217,219) solid 1px;
+.unselected {
+    border-bottom: 1px solid rgb(219,217,219);
+    width: auto;
     font-size: 30px;
     text-align: center;
     padding-top: 1%;
