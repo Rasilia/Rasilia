@@ -20,6 +20,20 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
+.tip {
+    font-size: 30px;
+    position: relative;
+    color: whitesmoke; 
+    text-align: center;
+    top: 65%;
+}
+.confirm {
+    position: relative;
+    top: 69%;
+    font-size: 35px;
+    color: whitesmoke; 
+    text-align: center;
+}
 
 .lingua {
     position:fixed;
@@ -37,10 +51,14 @@ body {
     overflow-y:auto;
 }
 .selected {
-    background: azure;
+    position: relative;
+    background: #f0ffff;
+    background-size: 40% auto;
 }
 .lingua li {
     border-bottom: rgb(219,217,219) solid 1px;
     font-size: 30px;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }

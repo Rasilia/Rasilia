@@ -1,0 +1,3 @@
+function GOTO() {
+    $('.selected').document
+}

@@ -4,20 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title" key="TITLE">Rasilia | Here is Rasilia's Personal Website~</title>
+    <title id="title">Rasilia | Here is Rasilia's Personal Website~</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
     <script src="js/lingua.js"></script>
+    <script src="js/goto.js"></script>
 </head>
 
 <body>
     <div class="note_and_show">
-        <div class="note_and_show_1" id="Note_and_Show" key="NOTE_AND_SHOW">Please select the language you wanna use.</div>
+        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.</div>
+        <p class="tip" id="Tip">If you have selected, please click the CONFIRM button below.</p>
+        <div class="confirm" id="Confirm" onclick="GOTO()">CONFIRM</div>
     </div>
     <div class="lingua">
         <ul>
             <li class="selected" id="en" onclick="en()">English</li>
             <li class="" id="zh" onclick="zh()">汉语</li>
+            <li class="" id="mj" onclick="mj()">Maplinj</li>
+            <li class="" id="jp" onclick="jp()">日本語</li>
         </ul>
     </div>
 </body>
