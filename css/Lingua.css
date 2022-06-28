@@ -15,7 +15,7 @@ body {
 }
 .note_and_show_1 {
     position: relative;
-    font-size:350%; 
+    font-size:325%; 
     color: whitesmoke; 
     text-align: center;
     top: 50%;
@@ -29,12 +29,13 @@ body {
 }
 .tip_1 {
     position: relative;
-    font-size: 200%;
+    font-size: 180%;
     position: relative;
     color: whitesmoke; 
     text-align: center;
-    top: 80%;
+    top: 85%;
 }
+
 .confirm {
     height: 100%;
     width: 50%;
