@@ -1,3 +1,3 @@
 function GOTO() {
-    $('.selected').d
+    $('.selected').getAttribute("id")
 }
