@@ -29,7 +29,7 @@ body {
 }
 .tip_1 {
     position: relative;
-    font-size: 30px;
+    font-size: 200%;
     position: relative;
     color: whitesmoke; 
     text-align: center;
@@ -43,7 +43,7 @@ body {
 .confirm_1 {
     position: relative;
     top: 92%;
-    font-size: 35px;
+    font-size: 250%;
     color: whitesmoke; 
     text-align: center;
 }
