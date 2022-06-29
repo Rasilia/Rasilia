@@ -43,10 +43,11 @@ body {
 }
 .confirm_1 {
     position: relative;
-    top: 91%;
+    top: 92%;
     font-size: 250%;
     color: whitesmoke; 
     text-align: center;
+    cursor: pointer;
 }
 
 .lingua {
@@ -62,7 +63,6 @@ body {
     list-style: none;
     height: auto;
     width: auto;
-    overflow-y:auto;
 }
 .selected {
     position: relative;
