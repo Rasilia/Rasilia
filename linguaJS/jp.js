@@ -7,7 +7,7 @@ function jp() {
     }
 
     document.getElementById("Title").innerHTML = "神木 冬風 | ";
-    document.getElementById("Note_and_Show").innerHTML = "To be translated";
+    document.getElementById("Note_and_Show").innerHTML = "To be translated(Nihongo)";
     document.getElementById("Tip").innerHTML = "To be translated";
     document.getElementById("gotoJP").innerHTML = "To be translated";
 }
