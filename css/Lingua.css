@@ -68,6 +68,7 @@ body {
     position: relative;
     background: #f0ffff;
     font-size: 30px;
+    color: black;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -77,6 +78,7 @@ body {
     border: 1px solid rgb(219,217,219);
     width: auto;
     font-size: 30px;
+    color: white;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;

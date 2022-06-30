@@ -12,12 +12,13 @@
     <script src="linguaJS/it.js">'Load Italian file'</script>
     <script src="linguaJS/jp.js">'Load Japanese file'</script>
     <script src="linguaJS/ml.js">'Load Maplinj file'</script>
-    <script src="linguaJS/zh.js">'Load Chinese file'</script>
+    <script src="linguaJS/zh_s.js">'Load Chinese(Simplified caracters) file'</script>
+    <script src="linguaJS/zh_t.js">'Load Chinese(Traditional caracters) file'</script>
 </head>
 
 <body>
     <div class="note_and_show">
-        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.<br><p style="font-size: 40%; color: red">Tip: If you're sure to use English, please switch into other language once and switch back coz I don't know how to fix the bug. Sorry!</p></div>
+        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.<br><p style="font-size: 40%; color: red">Tip: If you're sure to use English, please switch into other language once and switch back. It's a bug but I don't know how to fix the it. Sorry!</p></div>
     </div>
     <div class="tip">
         <div class="tip_1" id="Tip">If you have selected, please click the CONFIRM button below.</div>
@@ -28,7 +29,8 @@
     <div class="lingua">
         <ul>
             <li class="selected" id="en" onclick="en()">English</li>
-            <li class="unselected" id="zh" onclick="zh()">汉语</li>
+            <li class="unselected" id="zh_s" onclick="zh_s()">汉语（简体）</li>
+            <li class="unselected" id="zh_t" onclick="zh_t()">漢語（繁體）</li>
             <li class="unselected" id="it" onclick="it()">Italiano</li>
             <li class="unselected" id="ml" onclick="ml()">Maplinj</li>
             <li class="unselected" id="jp" onclick="jp()">日本語</li>
