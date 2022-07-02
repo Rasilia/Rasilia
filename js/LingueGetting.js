@@ -1,5 +1,3 @@
-localStorage.setItem("lang", "en")
-
 /*function () {
     localStorage.setItem("lang", "")
     var language = localStorage.getItem("lang")

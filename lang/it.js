@@ -4,4 +4,3 @@ function switch_to_it() {
     document.getElementById("Tip").innerHTML = "To be translated";
     document.getElementById("gotoIT").innerHTML = "To be translated";
 }
-

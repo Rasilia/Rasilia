@@ -9,8 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
     <!--load language files-->
     <script src="js/LingueGetting.js"></script>
-    <script src="lang/en.js"></script>
-    <script src="lang/zh_s.js"></script>
 </head>
 
 <body>
@@ -25,13 +23,22 @@
     </div>
     <div class="lingua">
         <ul>
-            <li class="selected" id="en" onclick="en()">English</li>
-            <li class="unselected" id="zh_s" onclick="zh_s()">汉语（简体）</li>
-            <li class="unselected" id="zh_t" onclick="zh_t()">漢語（繁體）</li>
-            <li class="unselected" id="it" onclick="it()">Italiano</li>
-            <li class="unselected" id="ml" onclick="ml()">Maplinj</li>
-            <li class="unselected" id="ja" onclick="ja()">日本語</li>
+            <li class="selected" id="en" onclick="en(); switch_to_en()">English</li>
+            <li class="unselected" id="zh_s" onclick="zh_s(); switch_to_zh_s()">汉语（简体）</li>
+            <li class="unselected" id="zh_t" onclick="zh_t(); switch_to_zh_t()">漢語（繁體）</li>
+            <li class="unselected" id="it" onclick="it(); switch_to_it()">Italiano</li>
+            <li class="unselected" id="ml" onclick="ml(); switch_to_ml()">Maplinj</li>
+            <li class="unselected" id="ja" onclick="ja(); switch_to_ja()">日本語</li>
         </ul>
     </div>
+    
 </body>
+<language>
+    <script src="lang/en.js"></script>
+    <script src="lang/zh_s.js"></script>
+    <script src="lang/zh_t.js"></script>
+    <script src="lang/it.js"></script>
+    <script src="lang/ja.js"></script>
+    <script src="lang/ml.js"></script>
+</language>
 </html>
