@@ -1,0 +1,3 @@
+export function lang_home_LANGUAGE CODE() {
+    document.getElementById("Title_2").innerHTML = "";
+}

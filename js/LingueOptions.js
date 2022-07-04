@@ -9,7 +9,7 @@ function LanguageCode() {
     document.getElementById("LanguageCode").className = "selected";
 }
 */
-
+localStorage.setItem("lang", "en")
 function en() {
     localStorage.setItem("lang", "en")
     document.getElementsByClassName("selected")[0].className = "unselected";
@@ -39,9 +39,4 @@ function ml() {
     localStorage.setItem("lang", "ml")
     document.getElementsByClassName("selected")[0].className = "unselected";
     document.getElementById("ml").className = "selected";
-}
-
-//This function is used to enter the home page.
-function entrance() {
-    location.href = "Home"
 }
