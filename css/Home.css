@@ -88,3 +88,6 @@ a:link, a:visited {
 .lang:hover ul {
     display: block;
 }
+#lang {
+    color: white;
+}

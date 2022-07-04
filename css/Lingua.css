@@ -44,10 +44,15 @@ body {
 .confirm_1 {
     position: relative;
     top: 92%;
+    text-align: center;
+}
+a {
     font-size: 250%;
     color: whitesmoke; 
-    text-align: center;
-    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    color: #87ceeb;
 }
 
 .lingua {
