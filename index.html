@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="Title">Rasilia | Here Is Rasilia's Personal Website~</title>
+    <title id="Title_1">Rasilia | Here Is Rasilia's Personal Website~</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
-    <!--load language files-->
-    <script src="js/LingueGetting.js"></script>
+    <script src="js/LingueOptions.js"></script>
 </head>
 
 <body>
     <div class="note_and_show">
-        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.<br><p style="font-size: 40%; color: red">Tip: If you're sure to use English, please click <i>English</i>on your own. It's a bug but I don't know how to fix it. Sorry!</p></div>
+        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.<br><p style="font-size: 40%; color: red">Tip: If you're sure to use English, please click <i>English</i> on your own. It's a bug but I don't know how to fix it. Sorry!</p></div>
     </div>
     <div class="tip">
-        <div class="tip_1" id="Tip">If you have selected, please click the CONFIRM button below.</div>
+        <div class="tip_1" id="Tip">If you have selected, please click the <i>CONFIRM</i> button below.</div>
     </div>
     <div class="confirm">
-        <div class="confirm_1" id="gotoEN">CONFIRM</div>
+        <div class="confirm_1" id="Entrance" onclick="entrance()">CONFIRM</div>
     </div>
     <div class="lingua">
         <ul>
-            <li class="selected" id="en" onclick="en(); switch_to_en()">English</li>
-            <li class="unselected" id="zh_s" onclick="zh_s(); switch_to_zh_s()">汉语（简体）</li>
-            <li class="unselected" id="zh_t" onclick="zh_t(); switch_to_zh_t()">漢語（繁體）</li>
-            <li class="unselected" id="it" onclick="it(); switch_to_it()">Italiano</li>
-            <li class="unselected" id="ml" onclick="ml(); switch_to_ml()">Maplinj</li>
-            <li class="unselected" id="ja" onclick="ja(); switch_to_ja()">日本語</li>
+            <li class="selected" id="en" onclick="en(); to_en()">English</li>
+            <li class="unselected" id="zh_s" onclick="zh_s(); to_zh_s()">汉语（简体）</li>
+            <li class="unselected" id="zh_t" onclick="zh_t(); to_zh_t()">漢語（繁體）</li>
+            <li class="unselected" id="it" onclick="it(); to_it()">Italiano</li>
+            <li class="unselected" id="ml" onclick="ml(); to_ml()">Maplinj</li>
+            <li class="unselected" id="ja" onclick="ja(); to_ja()">日本語</li>
         </ul>
     </div>
     
 </body>
 <language>
-    <script src="lang/en.js"></script>
-    <script src="lang/zh_s.js"></script>
-    <script src="lang/zh_t.js"></script>
-    <script src="lang/it.js"></script>
-    <script src="lang/ja.js"></script>
-    <script src="lang/ml.js"></script>
+    <script type="module" src="lang/en.js"></script>
+    <script type="module" src="lang/zh_s.js"></script>
+    <script type="module" src="lang/zh_t.js"></script>
+    <script type="module" src="lang/it.js"></script>
+    <script type="module" src="lang/ja.js"></script>
+    <script type="module" src="lang/ml.js"></script>
 </language>
 </html>
