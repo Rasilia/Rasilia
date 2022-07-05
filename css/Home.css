@@ -15,6 +15,7 @@ body {
     background: url(http://r.photo.store.qq.com/psc?/V51VeLMv08kXmy2CuvrD2GCb3C3CKV8p/45NBuzDIW489QBoVep5mccdFslB.GzEbe*dOfSaKuNmRC3gzGucgTPxoElYzTrBzSpZGHhu8R7YIq1GDehUwmBXN2ws2J7JlmLDUZ5A4oBI!/r);
     background-size: cover;
     background-attachment: fixed;
+    font-family: Calibri;
 }
 ul, ol {
     list-style: none;
@@ -37,14 +38,14 @@ a:link, a:visited {
 .top ul {
     height: 30;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-bottom: 6px;
     text-align: center;
 }
 .top ul li {
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 20px;
+    font-size: 22px;
 }
 .top a:hover {
     color: var(--b);
@@ -54,11 +55,11 @@ a:link, a:visited {
 .lang {
     height: 40px;
     width: 125px;
-    font-size: 20px;
+    font-size: 22px;
     position: absolute;
-    left: 90%;
+    left: 89%;
     text-align: end;
-    padding-top: 6px;
+    padding-top: 5px;
     color: var(--w);
     cursor:pointer;
 }
@@ -69,16 +70,16 @@ a:link, a:visited {
     top: 40px;
     left: 12%;
     border-radius: 10px;
-    width: 150px;
+    width: 170px;
     height: 1000px auto;
     overflow-y: auto;
     overflow-x: hidden;
 }
 .lang li {
-    font-size: 1.2rem;
+    font-size: 18px;
     text-align: center;
     display: block;
-    color: rgb(38, 43, 44);
+    color: #262b2c;
     padding: 5px;
 }
 .lang li:hover {
