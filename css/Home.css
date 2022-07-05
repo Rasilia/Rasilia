@@ -62,32 +62,28 @@ a:link, a:visited {
     color: var(--w);
     cursor:pointer;
 }
-.lang a {
-    color: black;
-}
 .lang ul {
     display: none;
     background: var(--w);
     position: inherit;
     top: 40px;
-    left: 13.5%;
+    left: 12%;
     border-radius: 10px;
-    width: 175px;
+    width: 150px;
     height: 1000px auto;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-.lang ul li {
+.lang li {
     font-size: 1.2rem;
     text-align: center;
     display: block;
+    color: rgb(38, 43, 44);
     padding: 5px;
 }
-.lang:hover {
+.lang li:hover {
     color: var(--b);
 }
 .lang:hover ul {
     display: block;
-}
-#lang {
-    color: white;
 }
