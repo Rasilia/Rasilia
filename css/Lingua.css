@@ -72,6 +72,7 @@ a:hover {
 .selected {
     position: relative;
     background: #f0ffff;
+    border-radius: 50px;
     font-size: 30px;
     color: black;
     text-align: center;
@@ -80,7 +81,8 @@ a:hover {
     cursor: default;
 }
 .unselected {
-    border: 1px solid rgb(219,217,219);
+    border: 1px solid #dbd9db;
+    border-radius: 50px;
     width: auto;
     font-size: 30px;
     color: white;
