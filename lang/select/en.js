@@ -4,4 +4,3 @@ function lang_select_en() {
     document.getElementById("Tip").innerHTML = "If you have selected, please click the <i>CONFIRM</i> button below.";
     document.getElementById("Entrance").innerHTML = "CONFIRM";
 }
-

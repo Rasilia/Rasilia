@@ -10,6 +10,7 @@ function LanguageCode() {
 }
 */
 localStorage.setItem("lang", "en")
+
 function en() {
     localStorage.setItem("lang", "en")
     document.getElementsByClassName("selected")[0].className = "unselected";
