@@ -5,7 +5,14 @@
     <title id="Title_1">Rasilia | Select Your Language</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
+    <script src="js/Detectior.js"></script>
     <script src="js/LingueOptions.js"></script>
+    <script>
+        function confirm() {
+            localStorage.setItem("lang", localStorage.getItem("choice"))
+            localStorage.removeItem("choice")
+        }
+    </script>
 </head>
 
 <body>
@@ -16,7 +23,7 @@
         <div class="tip_1" id="Tip">If you have selected, please click the <i>CONFIRM</i> button below.</div>
     </div>
     <div class="confirm">
-        <div class="confirm_1"><a id="Entrance" href="Home">CONFIRM</a></div>
+        <div class="confirm_1"><a id="Entrance" href="Home" onclick="confirm()">CONFIRM</a></div>
     </div>
     <div class="lingua">
         <ul>

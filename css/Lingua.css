@@ -69,6 +69,11 @@ a:hover {
     height: auto;
     width: auto;
 }
+.lingua ul li {
+    margin-inline: 22%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 .selected {
     position: relative;
     background: #f0ffff;

@@ -1,12 +1,12 @@
 /*CREATED BY RASILIA*/
 
-/*变量*/
+/*Variable*/
 :root {
     --b: #87ceeb;
     --w: white;
 }
 
-/*全局*/
+/*Global*/
 * {
     padding: 0;
     margin: 0;
@@ -31,7 +31,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-/*顶部*/
+/*Topbar*/
 .top {
     background:#34393a center top;
     height: 40px;
@@ -54,7 +54,7 @@ a:link, a:visited {
     color: var(--b);
 }
 
-/*语言*/
+/*Lingue*/
 .lang {
     height: 40px;
     width: 125px;
