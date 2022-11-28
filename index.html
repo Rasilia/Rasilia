@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title id="Title_1">Rasilia | Select Your Language</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/Lingua.css">
-    <script src="js/Detectior.js"></script>
-    <script src="js/LingueOptions.js"></script>
-    <meta name="referrer" content="no-referrer" />
-    <script>
-        function confirm() {
-            localStorage.setItem("lang", localStorage.getItem("choice"))
-            localStorage.removeItem("choice")
-        }
-    </script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title id="Title_1">Rasilia'no Self Introductions</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/temporary.css">
+        <script src="js/Shift.js"></script>
+        <meta name="referrer" content="no-referrer" />
+    </head>
 
-<body>
-    <div class="note_and_show">
-        <div class="note_and_show_1" id="Note_and_Show">Please select the language you wanna use.</div>
-    </div>
-    <div class="tip">
-        <div class="tip_1" id="Tip">If you have selected, please click the <i>CONFIRM</i> button below.</div>
-    </div>
-    <div class="confirm">
-        <div class="confirm_1"><a id="Entrance" href="Home" onclick="confirm()">CONFIRM</a></div>
-    </div>
-    <div class="lingua">
-        <ul>
-            <li class="selected" id="en" onclick="en(); lang_select_en()">English</li>
-            <li class="unselected" id="zh_s" onclick="zh_s(); lang_select_zh_s()">汉语（简体）</li>
-            <li class="unselected" id="zh_t" onclick="zh_t(); lang_select_zh_t()">漢語（繁體）</li>
-            <li class="unselected" id="it" onclick="it(); lang_select_it()">Italiano</li>
-            <li class="unselected" id="ml" onclick="ml(); lang_select_ml()">Maplinj</li>
-            <li class="unselected" id="ja" onclick="ja(); lang_select_ja()">日本語</li>
-        </ul>
-    </div>
-    
-</body>
-<language>
-    <script src="lang/select/en.js"></script>
-    <script src="lang/select/it.js"></script>
-    <script src="lang/select/ja.js"></script>
-    <script src="lang/select/ml.js"></script>
-    <script src="lang/select/zh_s.js"></script>
-    <script src="lang/select/zh_t.js"></script>
-</language>
+    <body>
+        <div class="box">
+            <div class="side">
+                <img class="pic_1" alt="? This means your service, brawser or network dose not support bilibili picture, or just is stupido." src="https://i1.hdslb.com/bfs/face/6636be64b750eb125a030d792adf8107c3964e71.jpg">
+                <div class="selectBar">
+                    <ol class="inShown" id="swiftIntroductions" onclick="swiftIntroductions()">Swift Introductions</ol>
+                    <ol class="notInShown" id="socialAccounts" onclick="socialAccounts()">Social Accounts</ol>
+                </div>
+            </div>
+            <div class="contentsBox">
+                <div class="shown" id="contents_1">
+                    <p class="c_1" id="names">Names<ul>
+                        <ol class="contents">Rasilia Hulaiali-Kolimu Loaoika-Mulpelia (Maplinj/English)</ol>
+                        <ol class="contents">神木冬風（日本語）</ol>
+                        <ol class="contents">冬风（汉语）</ol>
+                        <ol class="contents">孙魁（三次元）</ol>
+                    </ul></p>
+                    <p class="entry">Birthday</p><span class="contents">2004/2/3</span>
+                    <p class="entry">Major</p><span class="contents">English</span>
+                </div>
+                <div class="unshown" id="contents_2">
+                    <p class="entry">QQ Number:</p><span class="contents">2634779867</span>
+                    <p class="entry">WeChat:</p><span class="contents">(I don't use it as a chating tool, so I won't put the ID here.)</span>
+                    <p class="entry">Bilibili:</p><a href="https://space.bilibili.com/266729356" class="contents">Click here to jump to</a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
