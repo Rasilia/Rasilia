@@ -1,0 +1,6 @@
+function lang_select_LANGUAGE CODE() {
+    document.getElementById("Title_1").innerHTML = "";
+    document.getElementById("Note_and_Show").innerHTML = "";
+    document.getElementById("Tip").innerHTML = "";
+    document.getElementById("Entrance").innerHTML = "";
+}

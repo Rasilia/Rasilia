@@ -1,0 +1,6 @@
+export function lang_home_LANGUAGE CODE() {
+    document.getElementById("Title_2").innerHTML = "";
+    document.getElementById("home").innerHTML = "";
+    document.getElementById("present_language").innerHTML = "";
+    document.getElementById("lang").innerHTML = "";
+}
