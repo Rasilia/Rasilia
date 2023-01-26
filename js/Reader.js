@@ -6,8 +6,8 @@ $(document).ready(function() {
     }
     $("#en").click(function() {
         localStorage.setItem("choice", "en")
-        document.getElementsByClassName("selected")[0].className = "unselected";
-        document.getElementById("en").className = "selected";
+        $(".selected").first().attr("class", "unselected")
+        $("#en").attr("class", "selected")
         $.getJSON("../lang/en.json"), function(contents) {
             $.each(contents, function(id, value) {
                 document.getElementById(id).innerHTML = value;
