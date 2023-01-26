@@ -8,7 +8,7 @@ $(document).ready(function() {
         localStorage.setItem("choice", "en")
         $(".selected").first().attr("class", "unselected")
         $("#en").attr("class", "selected")
-        $.getJSON("../lang/en.json"), function(contents) {
+        $.getJSON("https://rasilia.top/lang/en.json"), function(contents) {
             $.each(contents, function(id, value) {
                 document.getElementById(id).innerHTML = value;
             })
