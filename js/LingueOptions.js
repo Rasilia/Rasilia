@@ -10,13 +10,7 @@ function LanguageCode() {
 }
 */
 
-localStorage.setItem("choice", "en")
 
-function en() {
-    localStorage.setItem("choice", "en")
-    document.getElementsByClassName("selected")[0].className = "unselected";
-    document.getElementById("en").className = "selected";
-}
 function zh_s() {
     localStorage.setItem("choice", "zh_s")
     document.getElementsByClassName("selected")[0].className = "unselected";
