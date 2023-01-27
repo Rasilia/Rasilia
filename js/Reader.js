@@ -1,17 +1,24 @@
+import { language, choice, sele } from "./Module.js"
+
 $(document).ready(function() {
     if(localStorage.getItem("lang") != null) {
         location.href="Home"
     } else {
-        localStorage.setItem("choice", "en")
-    }
-    $("#en").click(function() {
-        localStorage.setItem("choice", "en")
-        $(".selected").first().attr("class", "unselected")
-        $("#en").attr("class", "selected")
-        $.getJSON("../lang/en.json"), function(contents) {
-            $.each(contents, function(id, value) {
-                document.getElementById(id).innerHTML = value;
-            })
+        if(choice() == null) {
+            localStorage.setItem("choice", "en")
+            var lang = "en"
+            sele()
+            language(lang)
+        } else {
+            var lang = choice()
+            sele()
+            language()
         }
+    }
+    $(".lang_sele").click(function() {
+        var id = $(this).attr("id")
+        localStorage.setItem("choice", id)
+        sele()
+        language()
     })
 })

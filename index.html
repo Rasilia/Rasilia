@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Access-Control-Allow-Origin" content="*" />
-    <title id="Title_1">Rasilia | Select Your Language</title>
+    <title id="Title_1"></title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
-    <script src="js/Reader.js"></script>
-    <script src="js/LingueOptions.js"></script>
+    <script src="js/Reader.js" type="module"></script>
     <script>
         function confirm() {
             localStorage.setItem("lang", localStorage.getItem("choice"))
@@ -29,21 +28,14 @@
     </div>
     <div class="lingua">
         <ul>
-            <li class="selected" id="en">English</li>
-            <li class="unselected" id="zh_s" onclick="zh_s(); lang_select_zh_s()">汉语（简体）</li>
-            <li class="unselected" id="zh_t" onclick="zh_t(); lang_select_zh_t()">漢語（繁體）</li>
-            <li class="unselected" id="it" onclick="it(); lang_select_it()">Italiano</li>
-            <li class="unselected" id="ml" onclick="ml(); lang_select_ml()">Maplinj</li>
-            <li class="unselected" id="ja" onclick="ja(); lang_select_ja()">日本語</li>
+            <li class="unselected lang_sele" id="en">English</li>
+            <li class="unselected lang_sele" id="zh_s">汉语（简体）</li>
+            <li class="unselected lang_sele" id="zh_t">漢語（繁體）</li>
+            <li class="unselected lang_sele" id="it">Italiano</li>
+            <li class="unselected lang_sele" id="ml">Maplinj</li>
+            <li class="unselected lang_sele" id="ja">日本語</li>
         </ul>
     </div>
     
 </body>
-<language>
-    <script src="lang/select/it.js"></script>
-    <script src="lang/select/ja.js"></script>
-    <script src="lang/select/ml.js"></script>
-    <script src="lang/select/zh_s.js"></script>
-    <script src="lang/select/zh_t.js"></script>
-</language>
 </html>

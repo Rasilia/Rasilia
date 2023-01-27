@@ -2,11 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
         <title id="Title_2"></title>
         <link rel="icon" href="../favicon.ico" type="image/x-icon">
         <link rel="stylesheet" type="text/css" href="../css/Home.css">
-        <script type="module" src="../js/LingueChange.js"></script>
-        <script src="../js/HomeReload.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
+        <script src="../js/LangLoad.js" type="module"></script>
+        <script src="../js/LangTrans.js" type="module"></script>
         <meta name="referrer" content="no-referrer" />
     </head>
     
@@ -24,12 +26,12 @@
         <div class="lang">
             <p id="lang"></p>
             <ul>
-                <li onclick="reload_zh_s()">汉语（简体）</li>
-                <li onclick="reload_en()">English</li>
-                <li onclick="reload_it()">Italiano</li>
-                <li onclick="reload_ml()">Maplinj</li>
-                <li onclick="reload_ja()">日本語</li>
-                <li onclick="reload_zh_t()">漢語（繁體）</li>
+                <li class="lang_sele" id="zh_s"">汉语（简体）</li>
+                <li class="lang_sele" id="en"">English</li>
+                <li class="lang_sele" id="it"">Italiano</li>
+                <li class="lang_sele" id="ml"">Maplinj</li>
+                <li class="lang_sele" id="ja"">日本語</li>
+                <li class="lang_sele" id="zh_t"">漢語（繁體）</li>
             </ul>
         </div>
     </body>
