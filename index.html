@@ -8,24 +8,16 @@
     <link rel="stylesheet" type="text/css" href="css/Lingua.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js"></script>
     <script src="js/Reader.js" type="module"></script>
-    <script>
-        function confirm() {
-            localStorage.setItem("lang", localStorage.getItem("choice"))
-            localStorage.removeItem("choice")
-        }
-    </script>
+    <script src="js/langPageConfirm.js"></script>
 </head>
 
 <body>
-    <div class="note_and_show">
+    <div class="left">
         <div class="note_and_show_1" id="Note_and_Show"></div>
-    </div>
-    <div class="tip">
         <div class="tip_1" id="Tip"></div>
+        <div class="confirm" id="Entrance"></div>
     </div>
-    <div class="confirm">
-        <div class="confirm_1"><a id="Entrance" href="Home" onclick="confirm()"></a></div>
-    </div>
+
     <div class="lingua">
         <ul>
             <li class="unselected lang_sele" id="en">English</li>
@@ -34,6 +26,7 @@
             <li class="unselected lang_sele" id="it">Italiano</li>
             <li class="unselected lang_sele" id="ml">Maplinj</li>
             <li class="unselected lang_sele" id="ja">日本語</li>
+            <li class="unselected lang_sele" id="lt">Latīnum</li>
         </ul>
     </div>
     

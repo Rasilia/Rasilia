@@ -1,4 +1,1 @@
-import { language } from "./Module.js"
-
-language()
-
+import{language}from"./Module.js";language();

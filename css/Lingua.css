@@ -1,70 +1,71 @@
+:root {
+    --b: #87ceeb;
+    --w: whitesmoke;
+}
+
 * {
     padding: 0px;
     margin: 0px;
 }
+html {
+    height: 100%;
+}
 body {
     background-color: #32322f;
     font-family: Calibri;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-.note_and_show {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-
+.left {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .note_and_show_1 {
     position: relative;
+    margin: auto;
     font-size:325%; 
-    color: whitesmoke; 
+    color: var(--w); 
     text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.tip {
-    height: 100%;
-    width: 50%;
-    position: fixed;
+    top: 38px;
 }
 .tip_1 {
     position: relative;
     font-size: 150%;
-    position: relative;
-    color: whitesmoke; 
+    color: var(--w); 
     text-align: center;
-    top: 85%;
+    top: -1%;
 }
-
 .confirm {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-}
-.confirm_1 {
     position: relative;
-    top: 92%;
     text-align: center;
-}
-a {
     font-size: 250%;
-    color: whitesmoke; 
-    text-decoration: none;
+    color: var(--w);
+    cursor: pointer;
+    top: -1%;
 }
-a:hover {
-    color: #87ceeb;
+.confirm:hover {
+    color: var(--b);
 }
 
 .lingua {
-    position:fixed;
-    height: 100%;
-    width: 50%;
-    left: 50%;
+    position: relative;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
 }
 .lingua ul {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     list-style: none;
     height: auto;
     width: auto;
@@ -73,10 +74,13 @@ a:hover {
     margin-inline: 22%;
     margin-top: 2%;
     margin-bottom: 2%;
+    height: auto;
+    transition: color,background-color 0.5s;
 }
 .selected {
     position: relative;
-    background: #f0ffff;
+    border: var(--b);
+    background: var(--b);
     border-radius: 50px;
     font-size: 30px;
     color: black;
@@ -86,16 +90,17 @@ a:hover {
     cursor: default;
 }
 .unselected {
-    border: 1px solid #dbd9db;
+    border: 2px solid #dbd9db;
     border-radius: 50px;
     width: auto;
     font-size: 30px;
-    color: white;
+    color: var(--w);
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
     cursor: pointer;
 }
 .unselected:hover {
-    color: #87ceeb;
+    color: black;
+    background-color: #dbd9db;
 }
