@@ -1,13 +1,13 @@
 {
-    "//" : "",
-    "Title_1" : "",
-    "Note_and_Show" : "",
-    "Tip" : "",
-    "Entrance" : "",
+    "//" : "Select page",
+    "Title_1" : "Rasilia | Select Your Language",
+    "Note_and_Show" : "Please select the language you wanna use",
+    "Tip" : "If you have selected, please click the <i>CONFIRM</i> button below",
+    "Entrance" : "CONFIRM",
     
-    "//" : "",
-    "Title_2" : "",
-    "home" : "",
-    "present_language" : "",
-    "lang" : ""
+    "//" : "Home page",
+    "Title_2" : "Rasilia | Here Is Rasilia's Personal Website~",
+    "home" : "Home",
+    "present_language" : "English",
+    "lang" : "Languages"
 }
